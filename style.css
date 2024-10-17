@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(201, 172, 255);
+    background-color: rgb(47, 44, 59);
     font-family:monospace
 }
 
@@ -7,17 +7,28 @@ body{
     display: flex;
 }
 
+.titulo_cartao{
+    color: rgb(76, 66, 119);
+}
+
 .cartao {
     margin: 1rem 1rem;
-    background-color: rgb(255, 247, 171);
+    color: rgb(255, 255, 255);
+    background-color: rgb(245, 236, 160);
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
 }
 
 .cartao__conteudo {
-    text-align: left;
+    text-align: center;
+    background-color: rgb(98, 87, 148);
+    height: 100%;
 }
+
+.cartao__conteudo h3 {
+background-color: rgba(245, 237, 160, 0.527);
+padding: 0.5rem;
 
 
 footer{
